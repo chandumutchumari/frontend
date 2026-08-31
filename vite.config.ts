@@ -17,14 +17,14 @@ export default defineConfig({
     preset: "vercel",
     routeRules: {
       "/api/**": {
-        proxy: "https://campusync-backend-production.up.railway.app/api/**",
+        proxy: "https://backend-z2uw.onrender.com/api/**",
       },
     },
   },
   server: {
     proxy: {
       "/api": {
-        target: "https://campusync-backend-production.up.railway.app",
+        target: "https://backend-z2uw.onrender.com",
         changeOrigin: true,
         secure: false,
       },
