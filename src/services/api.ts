@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Base URL for future REST APIs. Configure via VITE_API_BASE_URL.
-const baseURL = import.meta.env.VITE_API_BASE_URL ?? "https://campusync-backend-production.up.railway.app/api";
+const baseURL = import.meta.env.VITE_API_BASE_URL ?? "https://backend-z2uw.onrender.com/api";
 
 export const api = axios.create({
   baseURL,
